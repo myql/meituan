@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: 16px Arial;
+}
+a {
+	text-decoration: none;
+}
+.iconfont {
+	font-size: 16px;
+}
+#header {
+	height: 50px;
+	padding-top: 10px;
+	background: #06c1ae;
+	font-size: 0;
+}
+#header a {
+	float :left;
+	display: inline-block;
+	width: 45px;
+	color: white;
+}
+#header a .iconfont {
+	color: black;
+}
+#header  input {
+	display: inline-block;
+	height: 30px;
+	width: auto;
+}
+#header span {
+	float: right;
+}
