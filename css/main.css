@@ -17,17 +17,19 @@ a {
 	background: #06c1ae;
 
 }
-#header a{
+#header .city{
 	position: relative;
 	right: 60px;
 	float: left;
 	display: inline-block;
 	width: 60px;
 	height: 30px;
+	line-height: 30px;
 	color: white;
 	margin-right: -100%;
+	/* border: 1px solid red; */
 }
-#header a .iconfont {
+#header .city .iconfont {
 	color: white;
 }
 #header  .soso {
