@@ -11,25 +11,74 @@ a {
 	font-size: 16px;
 }
 #header {
+	width: 100%;
 	height: 50px;
-	padding-top: 10px;
+	padding: 10px 50px 10px 70px;
 	background: #06c1ae;
-	font-size: 0;
+
 }
-#header a {
-	float :left;
+#header a{
+	position: relative;
+	right: 60px;
+	float: left;
 	display: inline-block;
-	width: 45px;
+	width: 60px;
+	height: 30px;
 	color: white;
+	margin-right: -100%;
 }
 #header a .iconfont {
-	color: black;
+	color: white;
 }
-#header  input {
-	display: inline-block;
+#header  .soso {
+	position: relative;
+	float: left;
+	width :100%;
 	height: 30px;
-	width: auto;
 }
-#header span {
-	float: right;
+#header  .soso input {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	padding-left: 16px;
+	background: #05a494;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+#header  .soso ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #33d7ca;
+		font-size: 14px;
+}
+#header  .soso input:focus {
+	outline: none;
+}
+#header  .soso i {
+	position: absolute;
+	left: 0;
+	top: 15px;
+	margin-top: -8px;
+	color: white;
+}
+#header .overall {
+	position: relative;
+	left: 50px;
+	top: -10px;
+	float: left;
+	display: block;
+	width: 50px;
+	height:40px;
+	line-height: 40px;
+	margin-left: -50px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+}
+#header .overall p {
+	margin-top: -14px;
+	font-size: 14px;
+}
+#header .overall  .iconfont {
+	font-size: 24px;
+	color: white;
 }
