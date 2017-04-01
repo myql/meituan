@@ -206,3 +206,54 @@ li {
 .show-overall .dot .active {
 	background: #06c1ae;
 }
+.publicity {
+	width :100%;
+	margin-top: 12px;
+	border-top: 1px solid #ddd8ce;
+	border-bottom: 1px solid #ddd8ce;
+}
+.publicity>div {
+	float: left;
+}
+.publicity  h3 {
+	font: bold 15px/15px Helvetica, Arial, sans-serif;
+}
+.publicity  p{
+	font: 12px/12px Helvetica, Arial, sans-serif;
+	color: #666666;
+}
+.publicity-list1 {
+	float: left;
+	width: 40%;
+	height: 165px;
+	padding-top: 20px;
+	text-align: center;
+	border-right: 1px solid #ddd8ce;
+}
+.publicity-list1 img {
+	width: 100px;
+	height: 100px;
+}
+.publicity-list1 h3 ,.publicity-list2 h3{
+	width: 85px;
+	color: #55a40f;
+	margin: 0 auto;
+	text-align: left;
+}
+.publicity-list1 p,.publicity-list2 p{
+	margin-top: 15px;
+}
+.publicity-list2 {
+	width: 40%;
+	height: 80px;
+	text-align: center;
+	padding-top: 20px;
+	border-bottom: 1px solid #ddd8ce;
+}
+.publicity-list2 .life {
+		/* float: left; */
+}
+.publicity-list2 .life img{
+		width :100px;
+		height: 80px;
+} 
