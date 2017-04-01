@@ -2,20 +2,27 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font: 16px Arial;
 }
 a {
 	text-decoration: none;
 }
+li {
+	list-style: none;
+}
 .iconfont {
 	font-size: 16px;
+}
+.clearfix {
+	content: '';
+	display: block;
+	clear: both;
 }
 #header {
 	width: 100%;
 	height: 50px;
 	padding: 10px 50px 10px 70px;
 	background: #06c1ae;
-
+	border-bottom: 1px solid #21897d;
 }
 #header .city{
 	position: relative;
@@ -77,10 +84,97 @@ a {
 	color: white;
 }
 #header .overall p {
-	margin-top: -14px;
-	font-size: 14px;
+	margin-top: -22px;
+	font-size: 12px;
 }
 #header .overall  .iconfont {
 	font-size: 24px;
 	color: white;
+}
+.show-overall .show {
+	width: 100%;
+	float: left;
+}
+.show  {
+	height: 180px;
+	border-bottom: 1px #ddb8ce solid;
+}
+ .show-list li {
+	float: left;
+	width: 20%;
+	border: 1px solid red;
+	padding-top: 10px;
+	height: 83px;
+	text-align: center;
+	font-size: 0;
+}
+.show-list li  a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #666666;
+	font: 12px/1.2 Helvetica, Arial, sans-serif;
+}
+ .show-list li  span {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	text-align: center;
+}
+ .show-list li .iconfont {
+	font-size: 30px;
+	line-height: 40px;
+	color: white;
+}
+.show-list li .icon-orange {
+	background: #fd9d21;
+}
+.show-list li .icon-red {
+	background: #ff6767;
+	
+}
+.show-list li .icon-red .iconfont {
+	font-size: 40px;
+	line-height: 44px;
+}
+.show-list li .icon-purple {
+	background: #8a90fa;
+	
+}
+.show-list li .icon-purple .iconfont {
+	font-size: 22px;
+}
+.show-list li .icon-yellow{
+	background: #fed030;
+}
+.show-list li .icon-blue{
+	background: #4dc6ee;
+}
+.show-list li .icon-violet{
+	background: #ff80c2;
+}
+.show-list li .icon-cyan{
+	background: #599eec;
+}
+.show-list li  p {
+	margin-top: 8px;
+}
+.show-overall .dot {
+	width: 40px;
+	margin: 0 auto;
+}
+.show-overall .dot li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin-right: 20px;
+	border-radius: 100%;
+	background: #f0efed;
+}
+.show-overall .dot .dot-2 {
+	margin-right: 0;
+}
+.show-overall .dot .active {
+	background: #06c1ae;
 }
