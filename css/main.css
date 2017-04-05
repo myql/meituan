@@ -12,7 +12,7 @@ li {
 .iconfont {
 	font-size: 16px;
 }
-.clearfix {
+.clearfix:after {
 	content: '';
 	display: block;
 	clear: both;
@@ -34,7 +34,6 @@ li {
 	line-height: 30px;
 	color: white;
 	margin-right: -100%;
-	/* border: 1px solid red; */
 }
 #header .city .iconfont {
 	color: white;
@@ -106,7 +105,6 @@ li {
  .show-list li {
 	float: left;
 	width: 20%;
-	border: 1px solid red;
 	padding-top: 10px;
 	height: 83px;
 	text-align: center;
@@ -212,6 +210,7 @@ li {
 	margin-top: 12px;
 	border-top: 1px solid #ddd8ce;
 	border-bottom: 1px solid #ddd8ce;
+	padding-top: 14px;
 }
 
 .publicity  h3 {
@@ -233,7 +232,7 @@ li {
 	width: 100px;
 	height: 100px;
 }
-.publicity-list1 h3 ,.publicity-list2 h3{
+.publicity-list1 h3 {
 	width: 85px;
 	color: #55a40f;
 	margin: 0 auto;
@@ -243,21 +242,80 @@ li {
 	margin-top: 15px;
 }
 .publicity-li {
-	float: right;
+	float: left;
 	width: 60%;
-	border: 1px solid red;
+	height: 165px;
 }
-/* .publicity-list2 { */
-	/* width: 100%; */
-	/* height: 80px; */
-	/* text-align: center; */
-	/* padding-top: 20px; */
-	/* border-bottom: 1px solid #ddd8ce; */
-/* } */
-/* .publicity-list2 .life { */
-		/* float: left; */
-/* } */
-/* .publicity-list2 .life img{ */
-		/* width :100px; */
-		/* height: 80px; */
-/* }  */
+.publicity-list2 {
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #ddd8ce;
+
+}
+ .publicity-list2 .life {
+		width: 200px;
+		height: 80px;
+		padding-top: 20px;
+		margin: 0 auto;
+		text-align: left;
+		background: url(https://img.alicdn.com/imgextra/i3/1036020250/TB2P.FIj3FkpuFjSspnXXb4qFXa_!!1036020250.jpg) no-repeat right center;
+		background-size: 100px 75px;
+}
+ .publicity-list2 .life h3 {
+	 color: #ff3f0d;
+ }
+ .publicity-lis>a {
+	 float: left;
+	 width: 50%;
+	 height: 85px;
+	 padding-top: 4px;
+ }
+ .publicity-lis .publicity-list3  {
+	 border-right: 1px solid #ddd8ce;
+	
+ }
+ .publicity-lis  p {
+	 line-height: 30px;
+ }
+ .publicity-lis .publicity-list3 img {
+	 width :40px;
+	 height: 40px;
+ }
+.publicity-list3 .life, .publicity-list4 .life {
+	width :100px;
+	margin: 0 auto;
+	text-align: left;
+}
+.publicity-list3 .life {
+	width: 90px;
+	height: 80px;
+	background: url(https://img.alicdn.com/imgextra/i1/1036020250/TB2V.e8j9BjpuFjy1XdXXaooVXa_!!1036020250.png) no-repeat right bottom;
+	background-size: 40px 40px;
+}
+.publicity-list4  {
+	font-size: 0;
+}
+.publicity-list4 .colon{
+	font: 14px/14px Arial;
+
+}
+.publicity-list4 .timimg {
+	display: inline-block;
+	border: 1px solid;
+	font-size: 0px;
+}
+.publicity-list4 .time {
+	display: inline-block;
+	width: 22px;
+	height: 14px;
+	line-height: 14px;
+	border-radius: 4px;
+	background:#4c4c4c;
+	color: white;
+}
+.publicity-list3  h3 {
+	color: #f742a0;
+}
+.publicity-list4  h3 {
+	color: #ff8401;
+}
