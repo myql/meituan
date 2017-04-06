@@ -23,5 +23,26 @@ setInterval(function(){
 	},1000)
 	
 	
-	
-	
+var $arrowTop=$('.arrow-top');	
+$(window).on('scroll',function(){
+	var scrollHeight=$(window).scrollTop();
+	var arrowHeight=$arrowTop.offset().top;
+	var windowHeight=$(window).height();
+	if((scrollHeight-windowHeight)>=0)
+	{
+		$arrowTop.addClass('fix');
+	}
+	else {
+		$arrowTop.removeClass('fix');
+	}
+})
+
+var $line=$('.footer-version .line'),
+$versionWords=$('.footer-version .version-words');
+var wordsWidth=$versionWords.width();
+var width=wordsWidth+30;
+$line.width(($(window).width()-width)/2);
+$(window).on('resize',function(){
+	$line.width(($(window).width()-width)/2);
+})
+
