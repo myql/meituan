@@ -395,9 +395,13 @@ div.love h1 {
 .over-all {
 	display :inline-block;
 	width :100%;
+	padding: 0 10px;
 	font: 15px/40px  Helvetica,Arial,sans-serif;
 	color: #06c1ae;
 	height: 40px;
 	border-top: 1px solid #ddd8ce;
 	border-bottom: 1px solid #ddd8ce;
+}
+.over-all .arrow-right {
+	float: right;
 }
