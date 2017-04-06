@@ -35,6 +35,9 @@ $(window).on('scroll',function(){
 	else {
 		$arrowTop.removeClass('fix');
 	}
+	$arrowTop.on('click',function(){
+		$(window).scrollTop(0);
+	})
 })
 
 var $line=$('.footer-version .line'),
