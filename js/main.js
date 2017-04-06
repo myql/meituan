@@ -22,3 +22,6 @@ setInterval(function(){
 	$second.text(toTime(nowSecond));
 	},1000)
 	
+	
+	
+	

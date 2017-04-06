@@ -281,7 +281,7 @@ li {
 	 width :40px;
 	 height: 40px;
  }
-.publicity-list3 .life, .publicity-list4 .life {
+.publicity-list3 .life {
 	width :100px;
 	margin: 0 auto;
 	text-align: left;
@@ -294,6 +294,12 @@ li {
 }
 .publicity-list4  {
 	font-size: 0;
+	text-align: center;
+}
+.publicity-list4  .life {
+	display: inline-block;
+	text-align: left;
+	
 }
 .publicity-list4 .colon{
 	font: 14px/14px Arial;
@@ -301,7 +307,6 @@ li {
 }
 .publicity-list4 .timimg {
 	display: inline-block;
-	border: 1px solid;
 	font-size: 0px;
 }
 .publicity-list4 .time {
@@ -309,6 +314,8 @@ li {
 	width: 22px;
 	height: 14px;
 	line-height: 14px;
+	font-size: 12px;
+	text-align: center;
 	border-radius: 4px;
 	background:#4c4c4c;
 	color: white;
@@ -318,4 +325,79 @@ li {
 }
 .publicity-list4  h3 {
 	color: #ff8401;
+}
+//
+div.love {
+	width: 100%;
+}
+div.love h1 {
+	font: 17px/40px Helvetica,Arial,sans-serif;
+	color: #333333;
+	height: 40px;
+}
+.love .group-buy {
+		width: 100%;
+}
+.love .group-list  a {
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	padding: 15px 10px 15px 100px;
+	background: url(https://img.alicdn.com/imgextra/i2/1036020250/TB2rsd_mS0mpuFjSZPiXXbssVXa_!!1036020250.jpg) no-repeat 5px center;
+	border-top: 1px solid #ddd8ce;
+	background-size: 90px 90px;
+}
+.love .group-buy h2 {
+	font: 15px/20px Helvetica,Arial,sans-serif;
+	color: #333333;
+}
+.love .group-buy a{
+	font: 12px/20px Helvetica,Arial,sans-serif;
+	color: #666666;
+}
+.love .group-buy .price {
+	font-size: 19px;
+	color: #06c1ae;
+	margin-right :2px;
+}
+.love .group-buy .sold {
+	float: right;
+}
+.love .group-list .clearfix {
+	margin-top: 15px;
+}
+.love .group-list1 a {
+	background-image: url(https://img.alicdn.com/imgextra/i3/1036020250/TB2Ff5omJ4opuFjSZFLXXX8mXXa_!!1036020250.jpg);
+}
+.love  .group-list2 a {
+	background-image: url(https://img.alicdn.com/imgextra/i1/1036020250/TB2adVMkHVkpuFjSspcXXbSMVXa_!!1036020250.jpg);
+}
+.love  .group-list3 a {
+	background-image: url(https://img.alicdn.com/imgextra/i4/1036020250/TB2LGJDkHtlpuFjSspoXXbcDpXa_!!1036020250.jpg);
+}
+.arrow-top {
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+	border-radius: 100%;
+	background: #06c1ae;
+	color: white;
+	text-align: center;
+}
+.arrow-top  .iconfont {
+	font-size: 26px;
+}
+.fix {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+.over-all {
+	display :inline-block;
+	width :100%;
+	font: 15px/40px  Helvetica,Arial,sans-serif;
+	color: #06c1ae;
+	height: 40px;
+	border-top: 1px solid #ddd8ce;
+	border-bottom: 1px solid #ddd8ce;
 }
